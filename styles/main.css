@@ -1,0 +1,44 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #d5e1ef;
+}
+
+.nft-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.nft-card {
+  text-align: center;
+  background-color: #fff;
+  width: 320px;
+  height: 499px;
+  border-radius: 20px;
+  padding: 16px 16px 40px 16px;
+}
+
+.nft-card img {
+  width: 288px;
+  aspect-ratio: 1;
+  border-radius: 10px;
+}
+
+.card-title {
+  margin-top: 24px;
+  font-size: 1.375em;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #1f314f;
+}
+
+.card-text {
+  margin-top: 16px;
+  font-size: 0.9375em;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #68778d;
+}
